@@ -1,1 +1,33 @@
-/* Add CSS styling here */
+*{
+box-sizing:border box;
+margin:0;
+max-width:100% ;
+border:1px solid grey;
+}
+
+html{
+    font-size:62.5%;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+header{
+    background-color: blueviolet;
+    height: 25vh;
+    width:100vw;
+    
+     }
+
+
+nav {
+display: flex;
+justify-content: flex-start;
+}
+
+nav a{
+    border:2px solid red;
+    width: 8%;
+    height: 5vh;
+}
