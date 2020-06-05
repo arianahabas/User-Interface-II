@@ -18,9 +18,9 @@ body {
 .main div{
     display:flex
 }
-.main .me button {
-    width: 40%;
-    height: 10%;
+.main .me a button {
+    width: 150px;
+    height: 60px;
     background-color:#B5BAD0;
     border-style:dotted;
     font-weight: bolder;
@@ -109,7 +109,7 @@ footer p {
     color:white;
 }
 
-footer button {
+footer a button {
     width: 150px;
     height: 60px;
     background-color:#B5BAD0;
