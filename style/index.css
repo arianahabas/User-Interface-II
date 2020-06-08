@@ -146,3 +146,22 @@ span{
     justify-content: space-around;
     padding:2% 2%;
 }
+
+footer .fab{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+footer .fab:hover {
+    color: green;
+  }
+
+ button:hover{
+      color:white;
+  }
+
+nav a:hover{
+    color:white;
+}
