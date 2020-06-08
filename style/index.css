@@ -2,7 +2,7 @@
     box-sizing:border box;
     margin:0;
     max-width:100% ;
-    /* border:1px solid grey; */
+    border:1px solid grey;
 }
 
 html{
@@ -16,29 +16,29 @@ body {
 }
 
 .main div{
-    display:flex
+    display:flex;
+    align-items: center; 
 }
 .main .me a button {
     width: 150px;
-    height: 60px;
+    height: 40px;
     background-color:#B5BAD0;
     border-style:dotted;
     font-weight: bolder;
 }
-.gallery .textBottom, .gallery .textTop {
-    padding:1%;
-}
+
 .main .me {
     display:flex;
     flex-flow: column;
-    align-items: left;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 0% 5%;
+    height: 30vh;
+    align-items: flex-start;
 }
 
 .main img {
     height: 60vh;
-    width: 30%;
+    width: 45%;
     padding-top: 3%;
     padding-left: 3%;
 }
@@ -54,7 +54,7 @@ h2 {
 }
 header{
     background-color: #191923;
-    height: 25vh;
+    height: 30vh;
     width:100vw;
  }
 
@@ -84,27 +84,26 @@ nav a{
 
 img{
     height: 30vh;
-    width: 15%;
+    width: 20%;
+    padding: 2%;
 }
 
-.galleryTop, .galleryBottom {
+.textTop, .textBottom{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.textTop p, .textBottom p{
+    height: auto;
+    width: 20%;
+    padding: 1%;
+    text-align: center;
+    
+}
+.gallery .galleryTop, .gallery .galleryBottom{
     display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-
-.textTop, .textBottom {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    justify-content: space-around;
-    align-content: flex-start;
-}
-
-}
-
 footer p {
     font-size: 4em;
     color:white;
@@ -129,10 +128,6 @@ footer {
     margin-top: 3%;
 }
 
-.gallery{
-    margin-top: 2%;
-}
-
 span{
     font-size: 3em;
     color:white;
@@ -147,21 +142,3 @@ span{
     padding:2% 2%;
 }
 
-footer .fab{
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-}
-footer .fab:hover {
-    color: green;
-  }
-
- button:hover{
-      color:white;
-  }
-
-nav a:hover{
-    color:white;
-}
