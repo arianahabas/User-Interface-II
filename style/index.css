@@ -2,7 +2,7 @@
     box-sizing:border box;
     margin:0;
     max-width:100% ;
-    /* border:1px solid grey; */
+    border:1px solid grey;
 }
 
 html{
@@ -25,9 +25,7 @@ body {
     border-style:dotted;
     font-weight: bolder;
 }
-.gallery .textBottom, .gallery .textTop {
-    padding:1%;
-}
+
 .main .me {
     display:flex;
     flex-flow: column;
@@ -38,7 +36,7 @@ body {
 
 .main img {
     height: 60vh;
-    width: 30%;
+    width: 45%;
     padding-top: 3%;
     padding-left: 3%;
 }
@@ -54,7 +52,7 @@ h2 {
 }
 header{
     background-color: #191923;
-    height: 25vh;
+    height: 30vh;
     width:100vw;
  }
 
@@ -84,27 +82,26 @@ nav a{
 
 img{
     height: 30vh;
-    width: 15%;
+    width: 20%;
+    padding: 2%;
 }
 
-.galleryTop, .galleryBottom {
+.textTop, .textBottom{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.textTop p, .textBottom p{
+    height: auto;
+    width: 20%;
+    padding: 1%;
+    text-align: center;
+    
+}
+.gallery .galleryTop, .gallery .galleryBottom{
     display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-
-.textTop, .textBottom {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    justify-content: space-around;
-    align-content: flex-start;
-}
-
-}
-
 footer p {
     font-size: 4em;
     color:white;
@@ -127,10 +124,6 @@ footer {
     align-items: center;
     justify-content: center;
     margin-top: 3%;
-}
-
-.gallery{
-    margin-top: 2%;
 }
 
 span{
