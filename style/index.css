@@ -2,7 +2,7 @@
     box-sizing:border box;
     margin:0;
     max-width:100% ;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 
 html{
@@ -154,7 +154,7 @@ span{
         width:25%;
     }
     header{
-        height: 36vh;
+        height: 40vh;
     }
     .main div{
         flex-direction: column;
@@ -172,9 +172,11 @@ span{
     }
     
     .galleryBottom, .galleryTop{
-        flex-wrap: wrap;;
+        flex-wrap: wrap;
     }
     .photo{
         width:45%;
     }
-}
+    .social{
+        margin:3%;
+    }
