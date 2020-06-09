@@ -109,6 +109,12 @@ footer a button {
     border-style: dotted;
     font-weight: bolder;
 }
+button:hover{
+    background-color: whitesmoke;
+}
+nav a:hover{
+    background-color: whitesmoke;
+}
 
 footer {
     background-color:black;
@@ -134,6 +140,9 @@ span{
     justify-content: space-around;
     padding:2% 2%;
 }
+
+/* media queries */
+
 @media(max-width:800px){
     nav a{
         width:15%;
@@ -179,4 +188,11 @@ span{
     }
     .social{
         margin:3%;
+    }
+    .gallery{
+        width:90%;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
     }
