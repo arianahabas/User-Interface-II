@@ -2,7 +2,7 @@
     box-sizing:border box;
     margin:0;
     max-width:100% ;
-    /* border:1px solid grey; */
+    border:1px solid grey;
 }
 
 html{
@@ -54,7 +54,7 @@ h2 {
 }
 header{
     background-color: #191923;
-    height: 25vh;
+    height: 30vh;
     width:100vw;
  }
 
